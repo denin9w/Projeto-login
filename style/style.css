@@ -33,6 +33,7 @@ section#area_login{
     border-radius: 20px;
     overflow: hidden;
 
+
     transition: width .2s, height .2s;
     transition-timing-function: ease;
 
@@ -49,7 +50,4 @@ div#imagem{
 div#login{
     display: block;
     padding: 10px;
-}
-div#formulario{
-    margin: 10px;
 }
