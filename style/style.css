@@ -40,7 +40,7 @@ section#area_login{
 }
 div#imagem{
     display: block;
-    background:url(/imagens/login.jpg) no-repeat;
+    background:url(../imagens/login.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center bottom;
