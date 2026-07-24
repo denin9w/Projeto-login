@@ -18,8 +18,8 @@ main{
 }
 
 section#area_login{
-    width: 70%;
-    height: 65%;
+    width: 70vw;
+    height: 65vh;
   
 }
 
@@ -44,7 +44,7 @@ main{
 
 section#area_login{
     width: 70vw;
-    height: 600px;
+    height: 65vh;
     }
 
 div#imagem{
