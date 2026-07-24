@@ -29,7 +29,7 @@ section#area_login{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     
     width: 250px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
 
@@ -50,15 +50,19 @@ div#imagem{
 div#login{
     display: block;
     padding: 10px;
-
+}
+div#login h1{
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 div#formulario{
     width: 100%;
+    margin-top: 10px;
 }
 
 div.campo{
-    position: relative;
+
     display: block;
     margin: auto;
 
@@ -71,25 +75,34 @@ div.campo{
 
 }
 .campo i{
-    position: absolute;
-    top: 25%;
-    left: 5px;
-    font-size: 1.4em;
+
+    font-size: 2em;
+    color: white;
+    height: 40px;
+    padding: 6px;
+
 }
 .campo input{
-    position: absolute;
-    top: 4px;
-    width: 82%;
-    height: 30px;
-    margin-left: 35px;
-    border-radius: 5px;
+    background-color:#9bd3d2e5;
+    font-size: 1em;
+    width: calc(100% - 52px);
+    transform: translateY(-13px);
+    height: 100%;
+    border: 2px solid rgba(86, 13, 105, 0.931);;
+    border-radius: 8px;
+    padding: 5px;
+
 
 }
+.campo input:focus-within{
+    background-color: white;
+    border: none;
+}
 .campo input::placeholder{
-
     padding-left: 10px;
     font-size: 1.2em;
-    color:  rgba(86, 13, 105, 0.931);
+    font-weight: 900;
+    color:rgba(87, 13, 105, 0.694);
 }
 .campo label{
 
