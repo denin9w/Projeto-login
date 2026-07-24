@@ -1,0 +1,89 @@
+/* Type device breakpoints
+    Mobile (Portrait): 320px – 480px
+    Mobile (Landscape) / SmallTablets: 481px – 768px
+    Tablets (Landscape) / Small Laptops: 769px – 1024px
+    Desktops / Laptops: 1025px – 1200px
+    Extra Large Screens / Monitors: 1201px and up
+*/
+
+
+@media screen and  (min-width: 481px) and (max-width: 768px){
+
+main{
+    background-image:linear-gradient(to top, #49a09d, #5f2c82 );
+}
+
+section#area_login{
+    width: 70%;
+    height: 600px;
+  
+}
+
+div#imagem{
+    height: 50%;
+    background-position: center bottom;
+}
+div#login{
+    height: 50%;
+
+}
+
+}
+
+
+
+@media screen and  (min-width: 769px) and (max-width: 1024px){
+
+main{
+    background-image:linear-gradient(to top, #49a09d, #5f2c82 );
+}
+
+section#area_login{
+    width: 70vw;
+    height: 600px;
+    }
+
+div#imagem{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-position: center bottom;
+
+}
+div#login{
+    float: right;
+    width: 60%;
+
+   
+}
+
+}
+
+
+@media screen and (min-width: 1025px){
+
+main{
+    background-image:linear-gradient(to top, #49a09d, #5f2c82 );
+}
+
+section#area_login{
+    width: 900px;
+    height: 700px;
+    }
+
+div#imagem{
+    float: left;
+    width: 45%;
+    height: 100%;
+    background-position: center center;
+
+}
+div#login{
+    float: right;
+    width: 55%;
+
+   
+}
+
+}
+

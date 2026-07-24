@@ -3,18 +3,19 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: monospace;
-    
 }
+
 html.body{
     width: 100vw;
     height: 100vh;
+
     
 }
 main{
     position: relative;
-    background-color: rgba(119, 11, 146, 0.879);
     width: 100vw;
     height: 100vh;
+    background-color: rgba(86, 13, 105, 0.931)
     
 }
 
@@ -27,19 +28,25 @@ section#area_login{
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     
-    width: 220px;
+    width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
+
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
+
     
 }
 div#imagem{
-    background:url(/imagens/pexels-jessica-olivella-555697728-37994684.jpg) no-repeat;
+    display: block;
+    background:url(/imagens/login.jpg) no-repeat;
     height: 200px;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
    
 }
 div#login{
+    display: block;
     padding: 10px;
 }
